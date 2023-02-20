@@ -5,6 +5,7 @@
             "label": "Build",
             "command": "/usr/bin/g++",
             "args": [
+                "-fsanitize=undefined",
                 "-g",
                 "${file}",
                 "-o",
